@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Multiple File Upload</title>
+</head>
+<body>
+<form action="/upload/multiple" method="post" enctype="multipart/form-data">
+<label>Select File To Upload: <input type="file" name="uv-file" multiple></label><br>
+	<label><input type="checkbox" name="keep-original-file-name"> Keep Orignal name Of file</label><br>
+	<input type="submit" name="submit" value="submit">
+</form>
+</body>
+</html>
